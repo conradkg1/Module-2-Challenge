@@ -47,15 +47,6 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
@@ -63,7 +54,7 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.portfolio, .contact-information, .skillz {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -72,11 +63,23 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.portfolio h2, .contact-information h2, .skillz h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.skeleton {
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin: 10px;
+    
+}
+
+.list {
+    margin-left: 50px
+}
+.skeleton:hover{
+    box-shadow: 0 5px 15px #696969
 }
